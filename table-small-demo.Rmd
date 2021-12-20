@@ -15,11 +15,11 @@ editor_options:
 
 ```{r packages, include = F}
 library(tidyverse)
-library(openair)
+# library(openair)
 library(gt)
 library(gtExtras)
 knitr::opts_chunk$set(include = T, fig.align = 'center')
-load("~/Downloads/our_table.rda")
+load("our_table.rda")
 ```
 
 ```{r lev3, echo = F, warning =F, message = F}
