@@ -4,7 +4,7 @@ The original Rmd file `table-contest-rmd.Rmd` comes from ["Using gt, gtExtras an
 
 I save the final R objects files in `our_table.rda` for demo purpose.
 
-I create a small Rmd file `table-small-demo.Rmd` for the demo purpose. You can create the HTML file by Rscript -e "rmarkdown::knitr('table-small-demo.Rmd')" if your R have installed the required packages.
+I create a small Rmd file `table-small-demo.Rmd` for the demo purpose. You can create the HTML output file `table-small-demo.html` by running `Rscript -e "rmarkdown::render('table-small-demo.Rmd')"` in the command line or just knit the file assuming you have installed the required R packages.
 
 More resources:
 

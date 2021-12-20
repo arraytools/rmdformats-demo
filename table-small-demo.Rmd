@@ -1,7 +1,6 @@
 ---
 title: "Test gallery"
 date: "`r Sys.Date()`"
-author: Bruce
 output:
   rmdformats::html_clean: 
     highlight: tango
