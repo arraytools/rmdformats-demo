@@ -1,0 +1,27 @@
+---
+title: "Test gallery"
+date: "`r Sys.Date()`"
+author: Bruce
+output:
+  rmdformats::html_clean: 
+    highlight: tango
+    number_sections: true
+    lightbox: true
+    gallery: true
+    cards: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r packages, include = F}
+library(tidyverse)
+library(openair)
+library(gt)
+library(gtExtras)
+knitr::opts_chunk$set(include = T, fig.align = 'center')
+load("~/Downloads/our_table.rda")
+```
+
+```{r lev3, echo = F, warning =F, message = F}
+our_table
+```
